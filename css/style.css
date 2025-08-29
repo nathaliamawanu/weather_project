@@ -44,3 +44,40 @@ body {
     box-sizing: border-box;
     white-space: nowrap;
 }
+
+.weather_search {
+    width: 100%;
+    padding: 15px 10px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.15);
+    font-size: 20px;
+    color: inherit;
+    margin-bottom: 20px;
+}
+
+.weather::placeholder {
+    color: #fff;
+}
+
+.weather_today {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.weather_image {
+    width: 30vmin;
+    align-self: center;
+}
+
+.weather_city {
+    font-size: 36px;
+    font-weight: 600;
+    margin: 20px 0
+}
+
+.weather_day {
+    font-size: 30px;
+    margin: 10px 0;
+    font-weight: 400;
+}
